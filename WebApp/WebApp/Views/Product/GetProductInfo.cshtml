@@ -1,0 +1,24 @@
+﻿@model ProductViewModel
+@* @{
+    Layout = null;
+} *@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetProductInfo</title>
+</head>
+<body>
+   @*  @{
+        // ProductViewModel product = ViewData["Product"] as ProductViewModel;
+        ProductViewModel product = ViewBag.Product;
+
+    } *@
+    <h4>This is my product.</h4>
+    <p>product Id: @Model.ProductId</p>
+    <p>product Name: @Model.ProductName</p>
+    <p>product Code: @Model.ProductCode</p>
+    <p>product Price: @Model.Price</p>
+</body>
+</html>
