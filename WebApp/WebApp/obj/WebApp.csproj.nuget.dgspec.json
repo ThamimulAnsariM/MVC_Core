@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ThamimDev\\Day1\\WebApp\\WebApp\\WebApp.csproj": {}
+    "D:\\Git\\Dotnet core\\MVC_Core\\WebApp\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "D:\\ThamimDev\\Day1\\WebApp\\WebApp\\WebApp.csproj": {
+    "D:\\Git\\Dotnet core\\MVC_Core\\WebApp\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ThamimDev\\Day1\\WebApp\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "D:\\Git\\Dotnet core\\MVC_Core\\WebApp\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "D:\\ThamimDev\\Day1\\WebApp\\WebApp\\WebApp.csproj",
+        "projectPath": "D:\\Git\\Dotnet core\\MVC_Core\\WebApp\\WebApp\\WebApp.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\ThamimDev\\Day1\\WebApp\\WebApp\\obj\\",
+        "outputPath": "D:\\Git\\Dotnet core\\MVC_Core\\WebApp\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

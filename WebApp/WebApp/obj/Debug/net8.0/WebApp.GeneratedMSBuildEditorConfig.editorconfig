@@ -17,63 +17,83 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApp
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = D:\ThamimDev\Day1\WebApp\WebApp\
+build_property.ProjectDir = D:\Git\Dotnet core\MVC_Core\WebApp\WebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\ThamimDev\Day1\WebApp\WebApp
+build_property.MSBuildProjectDirectory = D:\Git\Dotnet core\MVC_Core\WebApp\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/ThamimDev/Day1/WebApp/WebApp/Views/Home/Index.cshtml]
+[D:/Git/Dotnet core/MVC_Core/WebApp/WebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ThamimDev/Day1/WebApp/WebApp/Views/Home/Privacy.cshtml]
+[D:/Git/Dotnet core/MVC_Core/WebApp/WebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ThamimDev/Day1/WebApp/WebApp/Views/Product/Create.cshtml]
+[D:/Git/Dotnet core/MVC_Core/WebApp/WebApp/Views/Product/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ThamimDev/Day1/WebApp/WebApp/Views/Product/CreateV1.cshtml]
+[D:/Git/Dotnet core/MVC_Core/WebApp/WebApp/Views/Product/CreateV1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGVWMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ThamimDev/Day1/WebApp/WebApp/Views/Product/GetProductInfo.cshtml]
+[D:/Git/Dotnet core/MVC_Core/WebApp/WebApp/Views/Product/GetProductInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxHZXRQcm9kdWN0SW5mby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ThamimDev/Day1/WebApp/WebApp/Views/Product/ProductCards.cshtml]
+[D:/Git/Dotnet core/MVC_Core/WebApp/WebApp/Views/Product/ProductCards.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0Q2FyZHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ThamimDev/Day1/WebApp/WebApp/Views/Product/ProductList.cshtml]
+[D:/Git/Dotnet core/MVC_Core/WebApp/WebApp/Views/Product/ProductList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0TGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ThamimDev/Day1/WebApp/WebApp/Views/Product/Thankyou.cshtml]
+[D:/Git/Dotnet core/MVC_Core/WebApp/WebApp/Views/Product/Thankyou.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxUaGFua3lvdS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ThamimDev/Day1/WebApp/WebApp/Views/Shared/Error.cshtml]
+[D:/Git/Dotnet core/MVC_Core/WebApp/WebApp/Views/Shared/Components/DiscountOffer/_DiscountOffer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRGlzY291bnRPZmZlclxfRGlzY291bnRPZmZlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Git/Dotnet core/MVC_Core/WebApp/WebApp/Views/Shared/Components/DiscountOffer/_NoOffer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRGlzY291bnRPZmZlclxfTm9PZmZlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Git/Dotnet core/MVC_Core/WebApp/WebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ThamimDev/Day1/WebApp/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Git/Dotnet core/MVC_Core/WebApp/WebApp/Views/Shared/_MyLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NeUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Git/Dotnet core/MVC_Core/WebApp/WebApp/Views/Shared/_Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Git/Dotnet core/MVC_Core/WebApp/WebApp/Views/Shared/_ProductInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0SW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Git/Dotnet core/MVC_Core/WebApp/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ThamimDev/Day1/WebApp/WebApp/Views/_ViewImports.cshtml]
+[D:/Git/Dotnet core/MVC_Core/WebApp/WebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ThamimDev/Day1/WebApp/WebApp/Views/_ViewStart.cshtml]
+[D:/Git/Dotnet core/MVC_Core/WebApp/WebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ThamimDev/Day1/WebApp/WebApp/Views/Shared/_Layout.cshtml]
+[D:/Git/Dotnet core/MVC_Core/WebApp/WebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7882z672yd

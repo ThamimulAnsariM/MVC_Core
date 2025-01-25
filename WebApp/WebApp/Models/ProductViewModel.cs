@@ -13,7 +13,7 @@ namespace WebApp.Models
         [DisplayName("Product Code")]
         public string? ProductCode { get; set; }
 
-        [DisplayName("Product ID")]
+        [DisplayName("Product Price")]
         public decimal Price { get; set; }
     }
 }

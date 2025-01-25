@@ -1,8 +1,8 @@
 ﻿@model IEnumerable<ProductViewModel>
-@{
+@* @{
     Layout = null;
 }
-
+ *@
 <!DOCTYPE html>
 
 <html>
@@ -17,24 +17,34 @@
     <a asp-action="create" asp-controller="product" class="btn btn-dark">Add New Product</a>
 
     <div class="row">
-    </div>
-    @foreach (var product in Model)
-    {
-        <div class="col-lg-4">
+        @foreach (var product in Model)
+        {
+            <div class="col-lg-4">
+              <partial name="_ProductInfo" model="product"></partial>
 
-            <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">@product.ProductName</h5>
-                    <h6 class="card-subtitle mb-2 text-body-secondary">Price : INR @product.Price </h6>
-
-                    <p>Product Code : @product.ProductCode</p>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                </div>
+                @* <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">@product.ProductName</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Price : INR @product.Price </h6>
+            <p>Product Code : @product.ProductCode</p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
-        </div>
-    }
+            </div> *@
+                @* <div class="card" style="width: 18rem;">
+            <div class="card-body">
+            <h5 class="card-title">@product.ProductName</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Price : INR @product.Price </h6>
 
+            <p>Product Code : @product.ProductCode</p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+            </div>
+            </div> *@
+            </div>
+        }
+    </div>
 </body>
 </html>
