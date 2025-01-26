@@ -27,24 +27,40 @@ namespace WebApp.Controllers
             //ViewData["Product"] = productViewModel;
             return View("GetProductInfo", productVM);    //Strongly typed view
         }
+
+
         [Route("Add")]
         [HttpGet]
         public IActionResult Create()
-        
+
         {
             return View("CreateV1");
         }
+
+
         [Route("save")]
         [HttpPost]
-        public IActionResult save(ProductViewModel product) 
+        public IActionResult save(ProductViewModel product)
         {
-            products.Add(product);
-            //return View("Thankyou");
-            return RedirectToAction("Summary", "product");
+            if (string.IsNullOrEmpty(product.ProductCode)/*&& DuplicateProduct(product.ProductName)*/)
+            {
+                ModelState.AddModelError("DuplicateCheck", "Product NAme is already exist");
+            }
+            if (ModelState.IsValid)
+            {
+                products.Add(product);
+                //return View("Thankyou");
+                return RedirectToAction("Summary", "product");
+            }
+            
+                return View("CreateV1");
+       
+
         }
+
         [HttpGet]
         [Route("product-list")]
-        public IActionResult Summary(int view=0)
+        public IActionResult Summary(int view = 0)
         {
             if (view != 0)
             {
@@ -54,7 +70,14 @@ namespace WebApp.Controllers
             {
                 return View("ProductList", products);
             }
-            
+
         }
+        #region Private Methods
+        //private bool DuplicateProduct(string productName)
+        //{
+        //    var isExist = products.Where(s => s.ProductName.ToLower() == productName.ToLower()).Any();
+        //    return isExist;
+        //}
+        #endregion
     }
 }
