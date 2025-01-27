@@ -1,10 +1,18 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.ComponentModel.DataAnnotations;
 
 namespace WebApp.Custom
 {
-    public class CodeValidator:ValidationAttribute
+    public class CodeValidator:ValidationAttribute,IClientModelValidator
     {
         public string Character { get; set; }
+
+        public void AddValidation(ClientModelValidationContext context)
+        {
+            context.Attributes.Add("data-val-codevalidator", ErrorMessage);
+            context.Attributes.Add("data-val-codevalidator-char", Character);
+        }
+
         protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
         {
 
