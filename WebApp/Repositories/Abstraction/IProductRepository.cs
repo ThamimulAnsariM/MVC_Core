@@ -9,11 +9,11 @@ namespace Repositories.Abstraction
 {
     public interface IProductRepository
     {
-        bool add(Product productadd);
+        bool Add(Product productadd);
 
-        bool update(Product productupdate);
+        bool Update(Product productupdate);
 
-        bool delete(int productID);
+        bool Delete(int productID);
 
         IEnumerable<Product> GetAll();
 

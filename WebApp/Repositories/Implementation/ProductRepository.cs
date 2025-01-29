@@ -37,12 +37,7 @@ namespace Repositories.Implementation
           
         }
 
-        public bool add(Product productadd)
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool delete(int productID)
+        public bool Delete(int productID)
         {
             var rowsAffected=_context.Products.Where(d => d.ProductId == productID).ExecuteDelete();
             _context.SaveChanges();
@@ -62,7 +57,7 @@ namespace Repositories.Implementation
             return product;
         }
 
-        public bool update(Product productupdate)
+        public bool Update(Product productupdate)
         {
             //var product = _context.Products.Where(d => d.ProductId == productupdate.ProductId)
             //    .ExecuteUpdate(s => s.SetProperty(x => x.ProductCode, productupdate.ProductCode));
