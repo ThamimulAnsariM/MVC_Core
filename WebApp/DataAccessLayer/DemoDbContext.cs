@@ -17,7 +17,6 @@ namespace DataAccessLayer
             {
                 string connectionstring = "Data Source=DESKTOP-6F2FJ3R; Initial Catalog=DotNetCore;Integrated Security=true;TrustServerCertificate=true;";
 
-                //string connectionstring = "Data Source=DESKTOP-H4DRA40\\MYSERVER; Initial Catalog=questponddb;Integrated Security=true;TrustServerCertificate=true;";
                 optionsBuilder.UseSqlServer(connectionstring);
                 base.OnConfiguring(optionsBuilder);
             }
